@@ -36,8 +36,10 @@ import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
 import github from '../assets/github.png'
 import github1 from '../assets/github1.png'
+import profile2 from '../assets/profile2.png'
 
 export default {
+    profile2,
     github1,
     github,
     email,
