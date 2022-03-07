@@ -27,13 +27,13 @@ const About = () => {
             key={about.index + index}
             whileInView={{ opacity: 1 }}
             whileHover={{ scale: 1.1 }}
-            transition={{ duration: 0.8, type: "tween" }}
+            transition={{ duration: 0.7, type: "tween" }}
             className="app__about-item"
           >
             <img src={urlFor(about.imgUrl)} alt={about.title} />
             <h2
               className="bold-text"
-              style={{ marginTop: "20", marginBottom: "10" }}
+              style={{ marginTop: 20, marginBottom: 10 }}
             >
               {about.title}
             </h2>

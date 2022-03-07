@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import images from "../../constants/images";
 import "./Navbar.scss";
 import { AiOutlineMenu, AiOutlineGithub } from "react-icons/ai";
+import { SiCodemagic } from "react-icons/si";
 import { HiX } from "react-icons/hi";
 import { motion } from "framer-motion";
 const NavBar = () => {
@@ -9,7 +10,7 @@ const NavBar = () => {
   return (
     <nav className="app__navbar">
       <div className="app__navbar-logo">
-        <img src={images.logo} alt="logo" />
+        <SiCodemagic style={{ height: "2em", width: "2em" }} />
       </div>
 
       <ul className="app__navbar-links">
